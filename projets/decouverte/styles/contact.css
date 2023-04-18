@@ -1,0 +1,81 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid, black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+} 
+
+.contItems{
+    font-size: 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.items{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.items:hover{
+    color: #5f5f5f;
+    zoom: 1;
+    transform: scale(1,2);
+}
+
+.titreForm{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.formulaire{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 350px;
+
+}
+
+.formulaire form{
+    width: 60%;
+}
+
+.formulaire form .row{
+    width: 100%;
+}
+
+.formulaire form .row input, .formulaire form .row textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulaire form .row textarea{
+    height: 150px;
+    resize: none;
+}
+
+.formulaire form .row .subBtn{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formulaire form .row .subBtn:hover{
+    color: #f1f1f1;
+    background: midnightblue;
+}
+
+.formulaire form .row:nth-child(2), .formulaire form .row:nth-child(3){
+    margin-top: 30px;
+}

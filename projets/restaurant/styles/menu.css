@@ -1,0 +1,33 @@
+.text-dark-1{
+    color: #3D3A4b !important;
+}
+
+.bg-beige{
+    background-color: #eeebd0 !important;
+}
+
+.playfair-font{
+    font-family: "Playfair Display", serif;
+}
+
+.max-width-body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.accordion-button{
+    color: #eeebd0 !important;
+    background-color: #3D3A4b !important;
+    border-radius: 0;
+    border: 0;
+}
+.accordion-item {
+  background-color: #3D3A4b !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item{
+    background-color: #3D3A4b !important;
+    border: 3px solid rgba(0, 0, 0, 0.125) !important;
+    color: #eeebd0 !important;
+}

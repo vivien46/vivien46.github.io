@@ -1,0 +1,20 @@
+.bg-beige{
+    background-color: #eeebd0 !important;
+}
+
+.playfair-font{
+    font-family: "Playfair Display", serif;
+}
+
+.max-width-body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.text-dark-1{
+    color: #3D3A4B !important;
+}
+
+.list-group-item{
+    border: 3px solid rgba(0, 0, 0, 0.125);
+}
