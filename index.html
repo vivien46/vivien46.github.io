@@ -1,288 +1,462 @@
 <!DOCTYPE html>
 <html lang="fr" height="100%">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>Accueil</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/index.css">
+		<title>Accueil</title>
+	</head>
 
-<body class="body">
+	<body class="body">
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img src="./logo/nav-logo.png" alt="logo Maison nav"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#a-propos">A propos de moi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#parcours">Parcours</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#exp">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  
-                </ul>
-            
-              </div>
-            </div>
-          </nav>
-        <!-- <nav class="container-fluid nav-top">
-            <div class="d-flex justify-content-center align-items-center">
+		<header>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="#"><img src="./logo/nav-logo.png" alt="logo Maison nav"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#a-propos">A propos de moi</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#parcours">Parcours</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#exp">Experience</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
 
-                <div class="nav-img">
-                    <img src="./logo/nav-logo.png" alt="logo Maison nav">
-                </div>
+						</ul>
 
-                <div>
-                    <ul class="d-flex justify-content-between">
-                        <a href="#a-propos">
-                            <li>A propos de moi</li>
-                        </a>
-                        <a href="#" class="ms-3">
-                            <li>Parcours</li>
-                        </a>
-                        <a href="#" class="ms-3">
-                            <li>Experience</li>
-                        </a>
-                        <a href="#portfolio" class="ms-3">
-                            <li>portfolio</li>
-                        </a>
-                        <a href="#contact" class="ms-3">
-                            <li>contact</li>
-                        </a>
-                    </ul>
-                </div>
+					</div>
+				</div>
+			</nav>
+			<!-- <nav class="container-fluid nav-top">
+															            <div class="d-flex justify-content-center align-items-center">
+															
+															                <div class="nav-img">
+															                    <img src="./logo/nav-logo.png" alt="logo Maison nav">
+															                </div>
+															
+															                <div>
+															                    <ul class="d-flex justify-content-between">
+															                        <a href="#a-propos">
+															                            <li>A propos de moi</li>
+															                        </a>
+															                        <a href="#" class="ms-3">
+															                            <li>Parcours</li>
+															                        </a>
+															                        <a href="#" class="ms-3">
+															                            <li>Experience</li>
+															                        </a>
+															                        <a href="#portfolio" class="ms-3">
+															                            <li>portfolio</li>
+															                        </a>
+															                        <a href="#contact" class="ms-3">
+															                            <li>contact</li>
+															                        </a>
+															                    </ul>
+															                </div>
+															
+															            </div>
+															        </nav> -->
+		</header>
 
-            </div>
-        </nav> -->
-    </header>
+		<!-- Section A Propos -->
+		<section class="sec1" id="a-propos">
 
-    <!-- Section A Propos -->
-    <section class="sec1" id="a-propos">
+			<h1 class="display-3 text-center">Portfolio VLAD Vivien</h1>
 
-        <h1 class="display-3 text-center text-body-secondary">Portfolio VLAD Vivien</h1>
-        
-            <h2 class="text-center">Bonjour, je m'appel Vivien, j'ai 37 ans et je
-                suis développeur Web</h2>
-            <p class="text-center display-6 pt-4">Vous trouverez sur cette page mes réalisation
-                ainsi que mon parcours et mon experience</p>
-
-    </section>
-
+			<h2 class="text-center">Bonjour, je m'appelle Vivien, développeur web orienté back-end</h2>
+			<p class="text-center fs-4 px-2">
+				Avec une solide base en informatique, je me concentre sur le développement côté serveur : gestion de bases de données, intégration fonctionnelle, traitement des données et structure des applications.  
+																				Vous trouverez ici un aperçu de mon parcours, de mes compétences techniques et de quelques projets réalisés.
+			</p>
 
 
-    <!-- Section Parcours -->
-   
-            <section class="container text-center" id="parcours">
-
-                <h2 class="mt-5">Mes compétences et langages</h2>
-                
-                <div class="row">
-                    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
-                        <div class="skills-item pt-3 pb-1">
-                            <img src="./logo/logo-html.png" alt="HTML5" class="skills-img" />
-                            <h3>HTML5</h3>
-                            <p>Acquis</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
-                        <div class="skills-item pt-3 pb-1">
-                            <img src="./logo/logo-javascript.png" alt="JAVASCRIPT" class="skills-img" />
-                            <h3>JavaScript</h3>
-                            <p>Acquis</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
-                        <div class="skills-item pt-3 pb-1">
-                            <img src="./logo/logo-css3.png" alt="image CSS" class="skills-img" />
-                            <h3>CSS</h3>
-                            <p>Acquis</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
-                        <div class="skills-item pt-3 pb-1">
-                            <img src="./logo/logo-php.png" alt="PHP" class="skills-img" />
-                            <h3>PHP</h3>
-                            <p>Acquis</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
-                        <div class="skills-item pt-3 pb-1">
-                            <img src="./logo/logo-reseau.png" alt="Reseau" class="skills-img" />
-                            <h3>TCP/IP</h3>
-                            <p>Acquis</p>
-                        </div>
-                    </div>
-                    </div>
-                
-                </div>
-            </section>
-        
-
-        <!-- Experiences -->
-        
-            <section class="container text-center" id="exp">
-
-                <h2>Mon experience</h2>
-                <p>
-                <ul>
-                    <li>
-                        Technicien Support Telephonie Mobile
-                    </li>
-                    <li>
-                        Technicien Help Desk
-                    </li>
-                    <li>
-                        Technicien Support Informatique
-                    </li>
-                    <li>
-                        Technicien De Déploiement Informatique
-                    </li>
-
-                </ul>
-                </p>
-
-                <a href="./Mon-CV/CV_Vivien_VLAD_Developpeur_web_applications_web_.pdf" class="btn btn-danger" target="_blank">Mon CV</a>
-
-            </section>
-        
-    
-
-    <!-- Portfolio -->
-                <section class="sec4 container text-center" id="portfolio">
-
-                    <h2 class="mb-5">Mes réalisations</h2>
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                          <a href="./projets/agency/index.html" target="_blanck">
-                            <div class="card h-100">
-                            <img src="./img/Capture-agency.jpg" class="card-img-top" alt="Agence voyage">
-                            <div class="card-body">
-                              <h5 class="card-title">Travel Agency</h5>
-                              <p class="card-text">Projet de site de reservation et d'organisation de voyages</p>
-                            </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col">
-                            <a href="./projets/demenagement/index.html" target="_blanck">
-                          <div class="card h-100">
-                            <img src="./img/capture-dem&mov.jpg" class="card-img-top" alt="Agence Demenagement">
-                            <div class="card-body">
-                              <h5 class="card-title">Dem&Move</h5>
-                              <p class="card-text">Projet de site d'une agence de démangement</p>
-                            </div>
-                            </a>
-                            </div>
-                            
-                        </div>
-                        <div class="col">
-                            <a href="./projets/decouverte/index.html" target="_blanck">
-                          <div class="card h-100">
-                            <img src="./img/capture-nature.jpg" class="card-img-top" alt="portfolio nature">
-                            <div class="card-body">
-                              <h5 class="card-title">Nature</h5>
-                              <p class="card-text">Projet de site sur un porte folio de phographies de le Nature</p>
-                            </div>
-                            </a>
-                          </div>
-                            
-                        </div>
-                        <div class="col">
-                            <a href="./projets/restaurant/index.html" target="_blanck">
-                          <div class="card h-100">
-                            <img src="./img/Capture-sushi.jpg" class="card-img-top" alt="restaurant sushi">
-                            <div class="card-body bg-">
-                              <h5 class="card-title">Restaurant Sushi</h5>
-                              <p class="card-text">Projet de site sur un restaurant Japonais avec menu</p>
-                            </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-           
-                </section>
-    
+		</section>
 
 
+		<!-- Section Parcours -->
 
-    <!-- Contact -->
+		<section class="container text-center" id="parcours">
+			<h3>Mes compétences</h3>
+
+			<div
+				class="row justify-content-center">
+
+				<!-- HTML -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/logo-html.png" alt="HTML5" class="skills-img"/>
+						<h3>HTML5</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+						</div>
+					</div>
+				</div>
+
+				<!-- CSS -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/logo-css3.png" alt="CSS3" class="skills-img"/>
+						<h3>CSS3</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+						</div>
+					</div>
+				</div>
+
+				<!-- PHP -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/logo-php.png" alt="PHP" class="skills-img"/>
+						<h3>PHP</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
+
+				<!-- JavaScript -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/logo-javascript.png" alt="JavaScript" class="skills-img"/>
+						<h3>JavaScript</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
 
-    <footer class="container footer" id="contact">
-        <p class="text-contact">Pour me contacter</p>
-        <div class="total">
+				<!-- Linux -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/linux-logo.png" alt="Linux" class="skills-img"/>
+						<h3>Linux</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
-            <div class="container d-flex justify-content-between">
-                <div class="social1 justify-content-between">
-                    <img src="./logo/Linkedin-logo.png" alt="icone Linkedin">
-
-                    <div class="linkedin">
-                        <h2>Linkedin</h2>
-                        <p><a href="https://www.linkedin.com/in/vivien-vlad-13b76b128">Mon profil</a></p>
-
-                    </div>
-                </div>
-
-                <div class="social1 align-content-center">
-                    <img src="./logo/mail-logo.png" alt="icone mail"
-                        class="d-flex justify-content-center align-items-center align-content-center">
-                    <div class="email d-block justify-content-center">
-
-                        <h2>Email</h2>
-                        <a href="mailto:vlad-vivien@orange.fr">
-                            <p>mon Email</p>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="social2 justify-content-between">
-                    <img src="./logo/liens.png" alt="icone maison">
-                    <div class="liens">
-                        <h2>Liens</h2>
-
-                    </div>
-                </div>
-                <div class="social2">
-                    <img src="./logo/téléphone.png" alt="icone maison">
-                    <div class="tel">
-                        <h2>Téléphone</h2>
-                        <a href="tel:+33672901509">
-                            <p>06.72.90.15.09</p>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+				<!-- Réseaux TCP/IP -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/logo-reseau.png" alt="Réseaux TCP/IP" class="skills-img"/>
+						<h3>Réseaux TCP/IP</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
 
+				<!-- Docker -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/docker-logo.png" alt="Docker" class="skills-img"/>
+						<h3>Docker</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
-        </div>
-        </div>
+				<!-- PostgreSQL -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/postgresql-logo.png" alt="PostgreSQL" class="skills-img"/>
+						<h3>PostgreSQL</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
-    </footer>
-    <p class="copyright">&copy 2023. Tous droits réservés.</p>
-    </footer>
-</body>
+				<!-- Symfony -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/symfony-logo.png" alt="Symfony" class="skills-img"/>
+						<h3>Symfony</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
 
+				<!-- Laravel -->
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="skill-card">
+						<img src="./logo/laravel-logo.png" alt="Laravel" class="skills-img"/>
+						<h3>Laravel</h3>
+						<div class="level-bars">
+							<span class="bar filled"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- Experiences -->
+
+		<section class="container" id="exp">
+			<h2 class="text-center">Mon expérience</h2>
+			<div class="timeline-container">
+
+				<div class="timeline-item left">
+					<div class="content">
+						<h3>Technicien Support Téléphonie Mobile</h3>
+						<p>Assistance aux utilisateurs pour la configuration, le dépannage et la gestion de smartphones professionnels (iOS/Android).</p>
+					</div>
+				</div>
+
+				<div class="timeline-item right">
+					<div class="content">
+						<h3>Technicien Help Desk</h3>
+						<p>Traitement des demandes de niveau 1 via outil de ticketing, assistance bureautique et prise en main à distance.</p>
+					</div>
+				</div>
+
+				<div class="timeline-item left">
+					<div class="content">
+						<h3>Technicien Support Informatique</h3>
+						<p>Installation, configuration et maintenance des postes clients et périphériques au sein du parc informatique.</p>
+					</div>
+				</div>
+
+				<div class="timeline-item right">
+					<div class="content">
+						<h3>Technicien Déploiement Informatique</h3>
+						<p>Préparation et déploiement en masse de stations de travail, masterisation, interventions sur site.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<a href="./Mon-CV/CV_Vivien_VLAD_Developpeur_web_applications_web_.pdf" class="btn btn-danger" target="_blank">Mon CV</a>
+
+		<!-- Portfolio -->
+		<section class="container" id="portfolio">
+			<h2 class="text-center">Mes réalisations</h2>
+
+			<!-- 🔧 Projets Backend -->
+			<h3 class="portfolio-subtitle">Projets Backend</h3>
+			<div
+				class="portfolio-grid">
+
+				<!-- BurgershopSF -->
+				<div class="project-card">
+					<img src="./img/burgershop.jpg" alt="Projet BurgershopSF">
+					<div class="project-content">
+						<h3>BurgershopSF</h3>
+						<p class="tech">Symfony • MySQL</p>
+						<p class="desc">Application de vente de burgers avec gestion des ingrédients, commandes et interface admin.</p>
+						<a href="https://github.com/vivien46/BurgershopSF" class="project-link" target="_blank">Voir le code</a>
+					</div>
+				</div>
+
+				<!-- Recettes Laravel -->
+				<div class="project-card">
+					<img src="./img/recettes-laravel.jpg" alt="Projet Recettes Laravel">
+					<div class="project-content">
+						<h3>Recettes Laravel</h3>
+						<p class="tech">Laravel • PostgreSQL</p>
+						<p class="desc">Application de partage de recettes avec gestion des utilisateurs, CRUD et upload d'images.</p>
+						<a href="https://github.com/vivien46/recettes-laravel" class="project-link" target="_blank">Voir le code</a>
+					</div>
+				</div>
+
+				<!-- Recettes de M -->
+				<div class="project-card">
+					<img src="./img/recettes-de-m.jpg" alt="Projet Recettes de M">
+					<div class="project-content">
+						<h3>Recettes de M</h3>
+						<p class="tech">Symfony • PostgreSQL</p>
+						<p class="desc">Projet personnel de recettes de cuisine, structuré avec entités, contrôleurs et vues Twig.</p>
+						<a href="https://github.com/vivien46/recettes-de-m" class="project-link" target="_blank">Voir le code</a>
+					</div>
+				</div>
+
+				<!-- Blog Laravel -->
+				<div class="project-card">
+					<img src="./img/blog-laravel.jpg" alt="Projet Blog Laravel">
+					<div class="project-content">
+						<h3>Blog Laravel</h3>
+						<p class="tech">Laravel • PostgreSQL / MySQL</p>
+						<p class="desc">Blog avec système CRUD complet, commentaires utilisateurs et gestion des publications.</p>
+						<a href="https://github.com/vivien46/blog-laravel" class="project-link" target="_blank">Voir le code</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- 🎨 Projets Frontend -->
+			<h3 class="portfolio-subtitle ">Projets Frontend</h3>
+			<div
+				class="portfolio-grid">
+
+				<!-- Travel Agency -->
+				<div class="project-card">
+					<img src="./img/Capture-agency.jpg" alt="Travel Agency">
+					<div class="project-content">
+						<h3>Travel Agency</h3>
+						<p class="tech">HTML • CSS • Bootstrap</p>
+						<p class="desc">Site vitrine pour une agence de voyages avec réservation et destinations mises en avant.</p>
+						<a href="./projets/agency/index.html" class="project-link" target="_blank">Voir le projet</a>
+					</div>
+				</div>
+
+				<!-- Dem&Move -->
+				<div class="project-card">
+					<img src="./img/capture-dem&mov.jpg" alt="Dem&Move">
+					<div class="project-content">
+						<h3>Dem&Move</h3>
+						<p class="tech">HTML • CSS</p>
+						<p class="desc">Site de présentation d'une société de déménagement avec formulaire de demande de devis.</p>
+						<a href="./projets/demenagement/index.html" class="project-link" target="_blank">Voir le projet</a>
+					</div>
+				</div>
+
+				<!-- Nature Portfolio -->
+				<div class="project-card">
+					<img src="./img/capture-nature.jpg" alt="Nature">
+					<div class="project-content">
+						<h3>Nature</h3>
+						<p class="tech">HTML • CSS</p>
+						<p class="desc">Portfolio de photographies nature avec galerie d’images et légendes.</p>
+						<a href="./projets/decouverte/index.html" class="project-link" target="_blank">Voir le projet</a>
+					</div>
+				</div>
+
+				<!-- Restaurant Sushi -->
+				<div class="project-card">
+					<img src="./img/Capture-sushi.jpg" alt="Restaurant Sushi">
+					<div class="project-content">
+						<h3>Restaurant Sushi</h3>
+						<p class="tech">HTML • CSS • Bootstrap</p>
+						<p class="desc">Site vitrine pour un restaurant japonais avec menu dynamique et horaires.</p>
+						<a href="./projets/restaurant/index.html" class="project-link" target="_blank">Voir le projet</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- Contact -->
+
+
+		<footer class="container footer" id="contact">
+			<h3 class="text-contact">Contact</h3>
+			<div class="total">
+
+				<div class="container d-flex justify-content-between align-items-center flex-row">
+					<div class="social1">
+						<img src="./logo/Linkedin-logo.png" alt="icone Linkedin">
+
+						<div class="linkedin">
+							<h2>Linkedin</h2>
+							<p>
+								<a href="https://www.linkedin.com/in/vivien-vlad-13b76b128">@vivienvlad</a>
+							</p>
+
+						</div>
+					</div>
+
+					<div class="social1 justify-content-center align-items-center">
+						<img src="./logo/mail-logo.png" alt="icone mail" class="d-flex justify-content-center align-items-center align-content-center">
+						<div class="email d-block justify-content-center">
+
+							<h2>Email</h2>
+							<a href="mailto:vlad-vivien@orange.fr">
+								<p>vlad-vivien@orange.fr</p>
+							</a>
+						</div>
+
+					</div>
+					<div class="social2 justify-content-center align-content-center">
+						<img src="./logo/liens.png" alt="icone maison">
+						<div class="liens">
+							<h2>Liens</h2>
+                                <a href="https://github.com/vivien46">github</a>
+						</div>
+					</div>
+					<div class="social2">
+						<img src="./logo/téléphone.png" alt="icone maison">
+						<div class="tel">
+							<h2>Téléphone</h2>
+							<a href="tel:+33672901509">
+								<p>06.72.90.15.09</p>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+        <p class="copyright">&copy 2023. Tous droits réservés.</p>
+        </footer>
+	</body>
 </html>
