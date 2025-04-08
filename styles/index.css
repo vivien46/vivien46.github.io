@@ -5,17 +5,15 @@
 
 .body {
   /* background-color: blue; */
-  background-image: linear-gradient(to bottom, #2b32c6, #6257d3, #897cdf, #ada2ea, #d0c9f4, #e3d5f7, #f3e3fa, #fff1ff, #ffe3f5, #ffdac7, #ffe389, #f5fb5f);
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-attachment: fixed;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.4);
-  /* plus doux */
-  backdrop-filter: blur(6px);
+  background-color: rgba(30, 30, 47, 0.95);
+  backdrop-filter: blur(4px);
   box-shadow: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-family: 'Fasthand', cursive;
@@ -26,24 +24,14 @@
 }
 
 .navbar a.nav-link {
-  color: #333;
+  color: #f0f0f0;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 .navbar a.nav-link:hover {
-  color: #2b32c6;
+  color: #a88bff;
   text-decoration: underline;
-}
-
-/* .nav-top li{
-    list-style: none;
-} */
-
-.nav-top a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
 }
 
 h1,
@@ -65,21 +53,30 @@ li {
 }
 
 .skill-card {
-  background: rgb(red, green, blue);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   padding: 25px 15px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease;
   height: 100%;
   width: 100%;
+  text-align: center;
 }
-
 .skill-card:hover {
   transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skill-card h3 {
+  color: #a88bff;
+  font-family: 'Fasthand', cursive;
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
 
 .level-bars {
   margin-top: 12px;
+  white-space: nowrap;
 }
 
 .bar {
@@ -88,13 +85,14 @@ li {
   height: 8px;
   margin: 0 2px;
   border-radius: 4px;
-  background-color: #ccc;
+  background-color: #444;
   transition: background-color 0.3s ease;
 }
 
 .bar.filled {
-  background-color: #2b32c6;
+  background-color: #a88bff;
 }
+
 
 .skills-img {
   max-width: 100%;
@@ -141,14 +139,36 @@ li {
 }
 
 .timeline-item .content {
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color:  rgba(50, 50, 70, 0.8);
+  color: #f0f0f0;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
+.timeline-item .content:hover{
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.timeline-item .content h3 {
+  color: #a88bff;
+  font-family: 'Fasthand', cursive;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.timeline-item .content p {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
 .timeline-item.left {
   left: 0;
 }
@@ -211,15 +231,10 @@ li {
 }
 
 .project-card {
-  /* background-color: #2f2f3c;
-    color: #f0f0f0;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease; */
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  color: #f0f0f0;
   border-radius: 16px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -256,20 +271,20 @@ li {
 .project-content h3 {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
-  color: #2b32c6;
+  color: #a88bff;
   font-family: 'Fasthand', cursive;
 }
 
 .project-content .tech {
   font-size: 0.9rem;
-  color: #333;
+  color: #bbb;
   font-style: italic;
   margin-bottom: 0.7rem;
 }
 
 .project-content .desc {
   font-size: 1rem;
-  color: #444;
+  color: #ccc;
   line-height: 1.4;
   margin-bottom: 1rem;
   flex-grow: 1;
@@ -290,7 +305,7 @@ li {
 
 .project-link:hover {
   text-decoration: underline;
-  background-color: #1e2480;
+  background-color: #3e3ecf;
 }
 
 footer {
