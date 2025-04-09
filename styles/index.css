@@ -214,6 +214,36 @@ li {
   }
 }
 
+/* buton CV */
+.cv-download-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.btn-cv {
+  display: inline-block;
+  background-color: #2b32c6;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-cv i {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.btn-cv:hover {
+  background-color: #1e2480;
+  text-decoration: underline;
+}
+
 .portfolio-subtitle {
   font-size: 1.8rem;
   font-weight: bold;
